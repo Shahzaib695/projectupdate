@@ -3,9 +3,11 @@
     padding: 0;
     font-family: 'Poppins';
 }
-a:hover{
+
+a:hover {
     color: black;
 }
+
 .navbar-brand {
     font-weight: 600;
 }
@@ -41,30 +43,39 @@ a:hover{
     display: flex;
     flex-direction: row;
 }
-.hero{
+
+.hero {
     padding: 0 15px;
+    margin-top: 20px;
 }
 
 .hero img {
-    max-width: 100%; /* Ensure the image scales properly */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 40px; /* Rounded corners */
+    max-width: 100%;
+    /* Ensure the image scales properly */
+    height: auto;
+    /* Maintain aspect ratio */
+    border-radius: 40px;
+    /* Rounded corners */
 }
+
 .hero h1 {
-    font-size: 2.5rem; /* Responsive font size */
+    font-size: 2.5rem;
+    /* Responsive font size */
 }
 
 .hero p {
     color: #6B7280;
     line-height: 1.5;
-    font-size: 1rem; /* Adjust font size for readability */
+    font-size: 1rem;
+    /* Adjust font size for readability */
 }
 
 .buttons {
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px; /* Space between buttons */
+    gap: 10px;
+    /* Space between buttons */
 }
 
 .btn1,
@@ -93,33 +104,40 @@ a:hover{
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     .hero h1 {
-        font-size: 2rem; /* Adjust heading size */
+        font-size: 2rem;
+        /* Adjust heading size */
     }
 
     .hero p {
-        font-size: 0.9rem; /* Adjust text size */
+        font-size: 0.9rem;
+        /* Adjust text size */
     }
 
     .buttons {
-        justify-content: center; /* Center-align buttons */
+        justify-content: center;
+        /* Center-align buttons */
     }
 
     .hero img {
-        margin-top: 20px; /* Add spacing for smaller screens */
+        margin-top: 20px;
+        /* Add spacing for smaller screens */
     }
 }
 
 @media (max-width: 576px) {
     .hero h1 {
-        font-size: 1.8rem; /* Further adjust heading size */
+        font-size: 1.8rem;
+        /* Further adjust heading size */
     }
 
     .hero p {
-        font-size: 0.85rem; /* Further adjust text size */
+        font-size: 0.85rem;
+        /* Further adjust text size */
     }
 
     .hero img {
-        width: 100%; /* Ensure image resizes properly */
+        width: 100%;
+        /* Ensure image resizes properly */
     }
 }
 
@@ -157,17 +175,86 @@ a:hover{
     border: 0.632812px solid #9CA3AF;
     text-decoration: none;
 }
-.experience{
+
+.experience {
     margin-top: 20px;
     /* display: inline; */
     display: inline-flex;
     flex-direction: row;
     gap: 10px;
 }
-.experience p{
+
+.experience p {
     font-weight: 600;
 }
-.service{
+
+.service {
     display: flex;
-    
+    margin-top: 60px;
+    height: 300px;
+    width: 100%;
+    background-color: #f3f4f6;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 5px;
+
+}
+
+/* subhhero */
+.open{
+    display: flex;
+    flex-direction: row;    
+    margin-bottom: 18px;
+}
+.open p {
+    color: #6B7280;
+}
+
+.open h4 {
+    font-weight: 700;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 115, 255, 0.1);
+    height: 30px;
+    flex-direction: row;
+    border-radius: 5.0625px;
+    width: 30px;
+}
+.openpara{
+    margin-left: 40px;
+}
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 115, 255, 0.1);
+    height: 30px;
+    flex-direction: row;
+    border-radius: 5.0625px;
+    width: 30px;
+}
+.phone{
+    display: flex;
+    flex-direction: row;
+}
+.phonepara{
+    margin-left: 40px;
+}
+.phone p {
+    color: #6B7280;
+}
+.phone h4 {
+    font-weight: 700;
+}
+.abooking{
+color: white;
+text-decoration: none;
+}
+.contact{
+    text-decoration: none;
 }
